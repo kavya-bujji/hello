@@ -1,0 +1,359 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+body{
+    margin:0;
+    background-color: white;
+}
+html{
+    font-family: lato sans-serif;
+    font-size: 20;
+    font-weight: 300;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .header-logo{
+     width: 100px;
+     height: auto;
+ }
+header{
+    border-bottom:  2px solid purple;
+}
+.header-list li{
+    display: inline;
+    font-size: 13px;
+}
+.header-list li a{
+    text-decoration: none;
+    color: black;
+}
+.cart{
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    background-color:purple;
+}
+.header-list button a{
+    
+    color: white;
+    text-decoration:none;
+}
+.i{
+ margin-right:5px ;
+}
+.a li{
+   display: inline;
+}
+.a li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: black;
+    margin-left:40px;
+
+}
+section{
+    background-color: rgba(0, 128, 128, 0.719);
+    height: 100%;
+}
+.image{
+    margin-left: 110px;
+    margin-right: 300px;
+    margin-top: 0px;
+    width: 150px;
+    height: 10;
+}
+.left{
+    margin-left: 0px;
+    margin-right: 500px;
+}
+.right{
+    margin-left: 380px;
+}
+
+.a button a{
+    text-decoration: none;
+    color: white;
+}
+.buy{
+    margin-left: 25px;
+    border: #ff0080;
+    border-radius: 10px;
+    background-color:#ff0080;
+}
+.register{
+    border-radius: 30px;
+    border: white;
+    background-color: white;
+    padding: 15px 30px;
+}
+.k{
+    font-family: lato;
+    font-weight:15;
+    margin-left: 5px;
+    font-size:60px; 
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slide{
+    flex: 0 0 50%;
+    width:50%
+}
+.v{
+    color: white;
+    font-size: 30px;
+}
+.register a{
+    text-decoration: none;
+    color: black;
+}
+.slide i{
+    margin-left: 15px;
+    margin-top: 15px;
+    padding:8px 18px;
+    border-radius: 180px;
+    background-color: white;
+    font-size:22px;
+    color:black;
+}
+.m{
+    width: 20%;
+    margin: 100px 70px;
+}
+.icon i{
+    color: white;
+    font-size: 50px;
+    margin-right: 150px;
+}
+.box{
+    border-top:5px solid white;
+    background-color: rgba(135, 207, 235, 0.288);
+}
+.g{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 190px;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.308);
+}
+.g i{
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    background-color: #ff0080;
+}
+.white{
+    margin-bottom: 90px;
+    background-color: white;
+}
+.s{
+    margin-right: 10px;
+    margin-left: 20px;
+    flex: 0 0 30%;
+    width:30%;
+}
+.size{
+    color: rgba(0, 0, 0, 0.329);
+    font-size: 28px;
+
+}
+.head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.747);
+}
+.s i{
+    font-size: 30px;
+    padding:15px 20px;
+    border-radius: 20px;
+    background-color:rgba(135, 207, 235, 0.384);
+    color: teal;
+    margin-left: 100px;
+    margin-top:40px;
+
+}
+.p{
+    background-color: rgba(135, 207, 235, 0.068);
+}
+.q{
+    flex: 0 0 50%;
+    width:50%;
+    color: slategrey;
+}
+.u{
+    font-size: 20px;
+}
+.wrap{
+    flex :0 0 25%;
+    width:25%
+}
+.flex{
+    flex:0 0 20%;
+    width:20%;
+}
+
+.center{
+    background-color: white;
+}
+.l{
+    flex: 0 0 50%;
+    width:50%;
+    margin-left: 250px;
+}
+.l i{
+    text-align: center;
+    font-size: 30px;
+    padding:15px 20px;
+    border-radius: 20px;
+    background-color:rgba(135, 207, 235, 0.384);
+    color: teal;
+    margin-left: 250px;
+    margin-top:40px;
+
+}
+.l p{
+    text-align: center;
+}
+.l h3{
+    text-align: center;
+}
+.l a{
+    margin-left: 220px;
+    text-decoration: none;
+    color: teal;
+    font-size: 20px;
+}
+.third{
+    background-color: rgba(135, 207, 235, 0.068);
+
+}
+.second{
+    flex:0 0 35%;
+    width:35%;
+}
+.four{
+    flex: 0 0 65%;
+    width:65%;
+}
+.second-head{
+    color:rgba(0, 0, 0, 0.521);
+}
+.bat{
+    color: gray;
+    font-size: 22px;
+}
+.five{
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-bottom: 70px;
+}
+.six{
+    background-color:white;
+    padding-bottom: 20px;
+    border-bottom:3px solid  rgba(0, 128, 128, 0.384);
+}
+.seven{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.637);
+}
+.eight{
+    margin-top: 0px;
+    font-size: 80px;
+    color: black;
+    margin-bottom: 0;
+}
+.nine{
+    color: gray;
+    margin-left: 350px;
+    font-size: 25px;
+    flex: 0 0 50%;
+    width: 50%;
+}
+.ten{
+    color: gray;
+}
+.button{
+    color: blue;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border-color: blue;
+}
+.email{
+    border-top: gray;
+    border-left: grey;
+    border-right: grey;
+    border-bottom: grey;
+    background-color: rgba(135, 207, 235, 0.24);
+    padding:15px 30px ;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.start{
+    color: white;
+    padding:15px 70px ;
+    background-color:teal;
+    border-radius: 5px;
+}
+.eleven{
+    background-color: white;
+    border-bottom:3px solid  rgba(0, 128, 128, 0.384);
+}
+.thirteen {
+    color: gray;
+    margin-left: 500px;
+    font-size: 25px;
+
+}
+.twelve{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fourteen{
+    margin-left: 10px;
+    color:white;
+    background-color:#ff0080 ;
+    padding-top: 12px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+}
+.fifteen{
+    background-color: rgba(135, 207, 235, 0.068);
+
+}
+.sixteen{
+    flex:0 0 20%;
+    width:20%;
+    
+}
+.seventeen{
+    margin-top: 20px;
+    width: 50%;
+}
+.eighteen{
+    
+    flex: 0 0 20% ;
+    width: 20%;
+    margin-top: 5%;
+    color: grey;
+}
+.eighteen i{
+    margin: 10px 5px;
+}
+.one{
+    color: grey;
+    margin-left: 500px;
+}
+.eighteen a{
+    text-decoration: none;
+    color: grey;
+}
